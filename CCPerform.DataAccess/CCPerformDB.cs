@@ -16,7 +16,7 @@ namespace CCPerform.DataAccess
         }
 
 
-        //54.video 01.25 kalındı
+        //57.video  kalındı
 
 
         #region BantasDbSetArea
