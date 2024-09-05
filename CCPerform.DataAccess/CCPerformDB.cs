@@ -12,16 +12,12 @@ namespace CCPerform.DataAccess
     {
         public CCPerformDB(DbContextOptions<CCPerformDB> option) : base(option)
         {
-                
+
         }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlServer("server=.;database=CCPerformdb;uid=sa;pwd=123");
-            base.OnConfiguring(optionsBuilder);
-        }
 
-        //57.video  kalındı
+        //54.video 01.25 kalındı
+
 
         #region BantasDbSetArea
 

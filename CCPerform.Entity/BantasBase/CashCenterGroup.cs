@@ -11,5 +11,7 @@ namespace CCPerform.Entity.BantasBase
     {
         //Nakit Merkezi Sinifi
         public string CashCenterGroupName { get; set; }
+
+        public virtual List<CashCenter> CashCenters { get; set; }
     }
 }

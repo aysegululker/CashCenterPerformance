@@ -11,5 +11,7 @@ namespace CCPerform.Entity.BantasBase
     {
         //Operasyon Biriminin Sinifi
         public string OperationDepartmentName { get; set; }
+
+        public virtual List<CashCenter> CashCenters { get; set; }
     }
 }
